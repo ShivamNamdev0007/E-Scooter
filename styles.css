@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"roboto",sans-serif;
+}
+    /* --------------navbar  css start----------------- */
+.main-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+}
+.main-container .left-navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.main-container .left-navbar .nav-list ul
+{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-left: 30px;
+   
+}
+.main-container .left-navbar .nav-list ul a{
+    text-decoration: none;
+    color: black;
+}
+.main-container .right-navbar  i
+{ 
+    margin: 5px;
+    
+}
+/* --------------navbar  css end----------------- */
+/* -----------------image section start-------------- */
+
+.main-img-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.main-img-container .one-img
+{
+    flex: 1;
+    background-image: url(./img/img1.webp);
+    background-size: cover;
+    background-position: center;
+   
+
+    
+}
+.main-img-container .two-img{
+    flex: 1;
+    background-image: url(./img/img2.webp);
+    background-size: cover;
+    background-position: center;
+   
+   
+}
+.main-img-container .three-img
+{
+    flex: 1;
+    background-image: url(./img/img3.webp);
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+.main-img-container .four-img
+{
+    flex: 1;
+    background-image: url(./img/img4.webp);
+    background-size: cover;
+    background-position: center;
+    
+}
+/* --------------image section end---------------- */
+    /*------------ short image section start--------- */
+
+.short-img-container
+{
+
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    gap: 60px;
+
+}
+.short-img-container img{
+    margin: 15px;
+}
+/*------------ short image section end--------- */
+/*------------ heading section start--------- */
+.section-heading 
+{
+   
+    text-align: center;
+    margin-top: 50px;
+}
+.section-heading p a
+{
+    color: red;
+}
+
+
+/*------------ heading section end--------- */
+   /*----------- spotify section start---------- */
+   .sopify-section{
+        display: flex;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        margin-top: 85px;
+   }
+   
+   .sopify-img1 img
+   {
+    width: 400px;
+    height: 400px;
+   }
+   .sopify-heading1 h1
+   {
+        font-size: xx-large;
+   }
+   .sopify-heading1 button
+   {
+        background-color:#ff4a32;
+        width: 130px;
+        height: 35px;
+        margin-top: 25px;
+        border-radius: 25px;
+        border: none;
+        color: #fff;
+   }
+   
+   /*----------- spotify section end---------- */
